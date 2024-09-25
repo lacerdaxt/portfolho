@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio - Marvel Edition</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-homem-aranha.png" alt="avatar do Homem-Aranha" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou o Homem-Aranha!</p>
+        <h1>Eu ensino Programação</h1>
+        <p>Sou um herói e programador! Ensino habilidades de codificação para estudantes do Ensino Fundamental e Médio. Vamos juntos explorar o mundo da programação com HTML, CSS e JavaScript. Confira meus projetos incríveis!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/hulk.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Biblioteca do Hulk: Uma Webpage Poderosa</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos livros favoritos do Hulk, incluindo informações sobre os autores, datas de publicação e links para compra na Amazon. A página é estilizada com CSS para uma visualização imersiva.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/thor.jpeg" class="card-img-top" alt="Imagem do projeto de viagem intergaláctica">
+                    <div class="card-body">
+                        <h5 class="card-title">A Jornada de Thor: Uma Aventura Interativa sobre Tecnologia</h5>
+                        <p class="card-text">Este projeto é um jogo interativo onde os jogadores ajudam Thor a salvar Asgard, fazendo escolhas que influenciam a narrativa e explorando o impacto da tecnologia no universo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/dead.jpeg" class="card-img-top" alt="Imagem do projeto de espionagem">
+                    <div class="card-body">
+                        <h5 class="card-title">Espionagem Interativa com a Viúva Negra</h5>
+                        <p class="card-text">Um projeto que cria uma experiência interativa sobre técnicas de espionagem, permitindo aos usuários explorar a arte da furtividade e estratégias com a Viúva Negra como guia.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Biblioteca do Hulk: Uma Webpage Poderosa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web que exibe uma coleção dos livros favoritos do Hulk. A ideia é criar um espaço onde todos possam encontrar recomendações de leitura e saber mais sobre as histórias que moldaram este grande herói.</p>
+                    <img src="img/hulk.png" class="img-fluid w-100" alt="Imagem representativa do projeto de biblioteca do Hulk">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://lacerdaxt.github.io/biblioteca-hulk/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/lacerdaxt/biblioteca-hulk">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">A Jornada de Thor: Uma Aventura Interativa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este jogo interativo envolve o jogador em uma aventura com Thor, onde cada escolha influencia o destino de Asgard. O objetivo é destacar a importância da tomada de decisões e suas consequências na narrativa.</p>
+                    <img src="img/thor.jpeg" class="img-fluid w-100" alt="Imagem representativa da jornada de Thor">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://lacerdaxt.github.io/jornada-thor/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/lacerdaxt/jornada-thor">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Espionagem Interativa com o Deadpool</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Neste projeto, os usuários aprendem sobre técnicas de espionagem com o Deadpool, explorando cenários de furtividade e tomadas de decisão. A interatividade ajuda a engajar os participantes na temática.</p>
+                    <img src="img/dead.jpeg" class="img-fluid w-100" alt="Imagem representativa da espionagem com o Deadpool">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/espionagem-viuva-negra/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
